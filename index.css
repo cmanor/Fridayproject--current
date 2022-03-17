@@ -84,8 +84,25 @@ h3
     text-align: left;
 }
 
+.interests p
+{
+    font-size:x-large;
+}
 .memes
 {
     display: flex;
-    width:600px;
+    flex-flow: row wrap;
+    width:1500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.memes img
+{
+
+    height: 525px;
+    width: 525px;
 }
