@@ -96,6 +96,8 @@ h3
     border: 1px solid black;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right:auto;
     justify-content: center;
     flex-shrink: 1;
 }
