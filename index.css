@@ -2,6 +2,9 @@ body
 {
     background-color: green;
     margin:0;
+    font-family: "Comic Sans MS", sans-serif;
+    color:blue;
+    text-shadow: 1px 1px black;
 }
 
 nav
@@ -11,6 +14,7 @@ nav
     background-color: dimgray;
     width:100%;
     margin:0;
+    padding: 20px;
 }
 
 nav ul
@@ -67,6 +71,12 @@ h3
     width: 620px;
 }
 
+.home .ending
+{
+    font-size:larger;
+    margin: 50px;
+}
+
 .projects ul
 {
     list-style-type: none;
@@ -78,23 +88,31 @@ h3
     margin-left:auto;
     margin-right:auto;
     width:fit-content;
+    border: 10px solid red;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 30px;
 }
 
 .projects li
 {
+    font-size:larger;
     text-align: left;
+    padding: 10px;
 }
 
 .interests p
 {
     font-size:x-large;
+    margin: 40px;
 }
 .memes
 {
     display: flex;
     flex-flow: row wrap;
-    width:1500px;
-    /* border: 1px solid black; */
+    width:1050px;
+    border: 10px solid red;
+    border-radius: 10px;;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
@@ -104,17 +122,26 @@ h3
     
 }
 
+.pets
+{
+    border: 10px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.petmemes
+{
+    border: 10px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 .memes img
 {
     height: 525px;
     width: 525px;  
-}
-
-.petmemes img
-{
-    height: 525px;
-    width: 525px;  
-    object-fit: cover;
 }
 
 .pets img
@@ -122,4 +149,18 @@ h3
     height: 525px;
     width: 525px; 
     object-fit: cover;
+}
+
+.petmemes img
+{
+    height: 525px;
+    width: 525px;  
+    object-fit: cover;
+    margin:0;
+    padding:0;
+}
+
+a
+{
+    text-decoration: none;
 }
