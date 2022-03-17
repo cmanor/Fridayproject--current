@@ -101,10 +101,25 @@ h3
     margin-right:auto;
     justify-content: center;
     flex-shrink: 1;
+    
 }
 
-.interests img
+.memes img
 {
     height: 525px;
-    width: 525px;
+    width: 525px;  
+}
+
+.petmemes img
+{
+    height: 525px;
+    width: 525px;  
+    object-fit: cover;
+}
+
+.pets img
+{
+    height: 525px;
+    width: 525px; 
+    object-fit: cover;
 }
