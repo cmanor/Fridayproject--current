@@ -1,6 +1,6 @@
 body
 {
-    background-color: green;
+    background-image: linear-gradient(dimgrey, green);
     margin:0;
     font-family: "Comic Sans MS", sans-serif;
     color:blue;
@@ -92,6 +92,7 @@ h3
     border-radius: 10px;
     justify-content: center;
     padding: 30px;
+    margin-bottom: 326px;
 }
 
 .projects li
