@@ -164,3 +164,144 @@ a
 {
     text-decoration: none;
 }
+
+
+
+
+
+/* ALL ANIMATION TEXT FOR THE DUMPING GROUND 
+IS BELOW THIS POINT
+ENTER AT YOUR OWN RISK */
+.ghost {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+  }
+  
+  .ghost {
+    animation: float 3s ease-out infinite;
+    margin-left: 169px;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }
+  .shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+  }
+  .shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+    ellipse {
+      transform-origin: center center;
+    }
+  }
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
+
+
+
+
+
+
+
+.corb
+{
+    animation: clockwise .1s 4s infinite;
+}
+
+
+
+body .dump {
+    border: 10px solid;
+    height: 100vh;
+  margin: 0;
+  background-image: url("https://preview.redd.it/xa0o794oix031.jpg?auto=webp&s=5eb9997f7acf65a25a5c1cda943f9aed9357785a");
+    animation: border 2s linear .1s infinite alternate;
+    animation: sandwich 1.69s linear 2s infinite alternate;
+}
+
+.square1 {
+  background-color: #FF8776;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 20%;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  animation: counterClockwise 1s infinite;
+  opacity: 0.2;
+}
+
+.square2 {
+  background-color: #5576ED;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 20%;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%) rotate(15deg);
+  animation: clockwise .3s infinite;
+  opacity: 0.3;
+}
+
+@keyframes counterClockwise {
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}
+
+@keyframes clockwise {
+  30% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  
+  70% {
+    transform: translate(-50%, -50%) rotate(270deg);
+  }
+}
+
+.letter {
+  font-family: $raleway;
+  color: white;
+  font-size: 3.5vw;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-75%, -50%);
+  opacity: 0.8;
+}
+
+@keyframes border
+{
+    from {border-color:red;}
+    to {border-color: blue;}
+}
+
+@keyframes sandwich
+{
+    from {opacity:1}
+    to {opacity:0}
+}
+
