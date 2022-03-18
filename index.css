@@ -195,7 +195,7 @@ ENTER AT YOUR OWN RISK */
     margin-top: 15px;
   }
   .shadow {
-    animation: shrink 3s ease-out infinite;
+    animation: shrink 3s 2.5s ease-out infinite;
     transform-origin: center center;
     ellipse {
       transform-origin: center center;
@@ -225,7 +225,7 @@ ENTER AT YOUR OWN RISK */
 
 .corb
 {
-    animation: clockwise .1s 4s infinite;
+    animation: clockwise .1s 5s infinite;
 }
 
 
@@ -236,7 +236,7 @@ body .dump {
   margin: 0;
   background-image: url("https://preview.redd.it/xa0o794oix031.jpg?auto=webp&s=5eb9997f7acf65a25a5c1cda943f9aed9357785a");
     animation: border 2s linear .1s infinite alternate;
-    animation: sandwich 1.69s linear 2s infinite alternate;
+    animation: sandwich 1.69s linear 6s infinite alternate;
 }
 
 .square1 {
@@ -248,7 +248,7 @@ body .dump {
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  animation: counterClockwise 1s infinite;
+  animation: counterClockwise 1s 2s infinite;
   opacity: 0.2;
 }
 
@@ -261,7 +261,7 @@ body .dump {
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%) rotate(15deg);
-  animation: clockwise .3s infinite;
+  animation: clockwise .3s 3s infinite;
   opacity: 0.3;
 }
 
@@ -284,13 +284,14 @@ body .dump {
 .letter {
   font-family: $raleway;
   color: white;
-  font-size: 3.5vw;
+  font-size: 10vw;
   letter-spacing: 0.1em;
   position: absolute;
   top: 50vh;
   left: 50vw;
   transform: translate(-75%, -50%);
-  opacity: 0.8;
+  opacity: 0;
+  animation: sandwich 1s 8s infinite;
 }
 
 @keyframes border
